@@ -23,18 +23,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "minecraft-server",
     "status": "up",
-    "uptime": "1.26%",
-    "uptimeDay": "1.26%",
-    "uptimeWeek": "1.26%",
-    "uptimeMonth": "1.26%",
-    "uptimeYear": "1.26%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 86,
     "timeDay": 86,
     "timeWeek": 86,
     "timeMonth": 86,
     "timeYear": 86,
-    "dailyMinutesDown": {
-      "2024-09-05": 5
-    }
+    "dailyMinutesDown": {}
   }
 ]
