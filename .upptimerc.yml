@@ -20,7 +20,7 @@ status-website:
   introTitle: "Status page for Miners Online"
   introMessage: View the status of all Miners Online services using our GitHub and [Upptime](https://github.com/upptime/upptime) powered status page.
   navbar:
-    - title: Miners Online Home:
+    - title: Miners Online Home
       href: https://minersonline.uk
     - title: Status
       href: /
