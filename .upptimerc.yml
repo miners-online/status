@@ -2,6 +2,8 @@
 owner: miners-online # Your GitHub organization or username, where this repository lives
 repo: status # The name of this repository
 
+skipDeleteIssues: true
+
 sites:
   - name: Miners Online website
     url: https://minersonline.uk
@@ -16,7 +18,8 @@ status-website:
   cname: status.minersonline.uk
   # baseUrl: /your-repo-name
   logoUrl: https://github.com/miners-online/status/raw/master/assets/favicon.svg
-  name: Upptime
+  faviconSvg: https://github.com/miners-online/status/raw/master/assets/favicon.svg
+  name: Miners Online status
   introTitle: "Status page for Miners Online"
   introMessage: View the status of all Miners Online services using our GitHub and [Upptime](https://github.com/upptime/upptime) powered status page.
   navbar:
