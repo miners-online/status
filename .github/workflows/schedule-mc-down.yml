@@ -12,14 +12,14 @@ jobs:
       run: |
         CURRENT_DATE=$(date -u +"%Y-%m-%d")
         TOMORROW_DATE=$(date -u -d "tomorrow" +"%Y-%m-%d")
-        echo "::set-output name=current::${CURRENT_DATE}"
-        echo "::set-output name=tomorrow::${TOMORROW_DATE}"
+        echo "current_date=${CURRENT_DATE}" >> $GITHUB_OUTPUT
+        echo "tomorrow_date=${TOMORROW_DATE}" >> $GITHUB_OUTPUT
 
     - name: Generate issue body
       run: |
         echo "<!--" > issue-body.md
-        echo "start: ${CURRENT_DATE}T20:20:00+0000" >> issue-body.md
-        echo "end: ${TOMORROW_DATE}T12:00:00+0000" >> issue-body.md
+        echo "start: ${{ steps.date.outputs.current_date }}T20:20:00+0000" >> issue-body.md
+        echo "end: ${{ steps.date.outputs.tomorrow_date }}T12:00:00+0000" >> issue-body.md
         echo "expectedDown: Minecraft server" >> issue-body.md
         echo "-->" >> issue-body.md
 
