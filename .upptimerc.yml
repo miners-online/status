@@ -6,7 +6,7 @@ sites:
   - name: Miners Online website
     url: https://minersonline.uk
   - name: Minecraft server
-    url: minersonline.ddns.et
+    url: minersonline.ddns.net
     port: 25565
     check: "tcp-ping"
 
