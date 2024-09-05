@@ -1,0 +1,34 @@
+name: Schedule Minecraft Server Maintenance Issue
+
+on:
+  workflow_dispatch:
+
+jobs:
+  create_issue:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Set up date variables
+      id: date
+      run: |
+        CURRENT_DATE=$(date -u +"%Y-%m-%d")
+        TOMORROW_DATE=$(date -u -d "tomorrow" +"%Y-%m-%d")
+        echo "::set-output name=current::${CURRENT_DATE}"
+        echo "::set-output name=tomorrow::${TOMORROW_DATE}"
+
+    - name: Generate issue body
+      run: |
+        echo "<!--" > issue-body.md
+        echo "start: ${CURRENT_DATE}T20:20:00+0000" >> issue-body.md
+        echo "end: ${TOMORROW_DATE}T12:00:00+0000" >> issue-body.md
+        echo "expectedDown: Minecraft server" >> issue-body.md
+        echo "-->" >> issue-body.md
+
+    - name: Create Issue From File
+      uses: peter-evans/create-issue-from-file@v5
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        title: "[Scheduled Maintenance] Minecraft server down for Maintenance"
+        content-filepath: ./issue-body.md
+        labels: |
+          minecraft-server
+          maintenance
