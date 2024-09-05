@@ -15,7 +15,7 @@ status-website:
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname: status.minersonline.uk
   # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
+  logoUrl: https://github.com/miners-online/status/raw/master/assets/favicon.svg
   name: Upptime
   introTitle: "Status page for Miners Online"
   introMessage: View the status of all Miners Online services using our GitHub and [Upptime](https://github.com/upptime/upptime) powered status page.
