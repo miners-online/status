@@ -62,12 +62,12 @@
     "url": "local.minersonline.uk",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "minecraft-server",
-    "status": "up",
-    "uptime": "54.64%",
-    "uptimeDay": "19.85%",
+    "status": "down",
+    "uptime": "55.09%",
+    "uptimeDay": "21.26%",
     "uptimeWeek": "44.36%",
     "uptimeMonth": "49.77%",
-    "uptimeYear": "54.64%",
+    "uptimeYear": "55.09%",
     "time": 118,
     "timeDay": 155,
     "timeWeek": 157,
@@ -168,8 +168,7 @@
       "2024-09-19": 642,
       "2024-09-18": 696,
       "2024-09-17": 640,
-      "2024-09-16": 665,
-      "2024-09-15": 264
+      "2024-09-16": 260
     }
   }
 ]
