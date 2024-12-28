@@ -5,11 +5,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/minersonline.uk.ico",
     "slug": "miners-online-website",
     "status": "up",
-    "uptime": "75.27%",
+    "uptime": "75.38%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "75.27%",
+    "uptimeYear": "75.38%",
     "time": 1152,
     "timeDay": 469,
     "timeWeek": 480,
@@ -62,16 +62,16 @@
     "url": "local.minersonline.uk",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "minecraft-server",
-    "status": "up",
-    "uptime": "58.21%",
-    "uptimeDay": "46.72%",
-    "uptimeWeek": "39.54%",
-    "uptimeMonth": "46.86%",
-    "uptimeYear": "58.21%",
+    "status": "down",
+    "uptime": "58.79%",
+    "uptimeDay": "51.22%",
+    "uptimeWeek": "39.58%",
+    "uptimeMonth": "48.08%",
+    "uptimeYear": "58.79%",
     "time": 118,
-    "timeDay": 95,
+    "timeDay": 86,
     "timeWeek": 117,
-    "timeMonth": 120,
+    "timeMonth": 121,
     "timeYear": 118,
     "dailyMinutesDown": {
       "2024-12-28": 504,
@@ -166,8 +166,7 @@
       "2024-09-30": 655,
       "2024-09-29": 774,
       "2024-09-28": 724,
-      "2024-09-27": 654,
-      "2024-09-26": 267
+      "2024-09-27": 263
     }
   }
 ]
