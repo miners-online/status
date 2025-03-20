@@ -6,9 +6,9 @@ skipDeleteIssues: true
 
 sites:
   - name: Miners Online website
-    url: https://minersonline.uk
+    url: https://www.minersonline.uk
   - name: Minecraft server
-    url: local.minersonline.uk
+    url: play.minersonline.uk
     port: 25565
     check: "tcp-ping"
 
@@ -24,7 +24,7 @@ status-website:
   introMessage: View the status of all Miners Online services using our GitHub and [Upptime](https://github.com/upptime/upptime) powered status page.
   navbar:
     - title: Miners Online Home
-      href: https://minersonline.uk
+      href: https://www.minersonline.uk
     - title: Status
       href: /
     - title: GitHub
