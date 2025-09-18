@@ -7,6 +7,8 @@ skipDeleteIssues: true
 sites:
   - name: Miners Online website
     url: https://www.minersonline.uk
+  - name: Miners Online Authentication
+    url: https://auth.minersonline.uk
   - name: Minecraft server
     url: play.minersonline.uk
     port: 25565
